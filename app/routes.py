@@ -10,7 +10,7 @@ task_id = 0
 
 @router.get("/")
 def root():
-    return {"message": "Service is running (deploy)"}
+    return {"message": "Service is running (deploy test)"}
 
 
 @router.post("/tasks")
